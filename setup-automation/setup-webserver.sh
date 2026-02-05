@@ -117,7 +117,7 @@ tee /home/rhel/url-check-example.yml << EOF
   hosts: web
   ## Define our source for events
   sources:
-     - ansible.eda.url_check:
+    - ansible.eda.url_check:
         urls:
           - http://localhost
         delay: 10
